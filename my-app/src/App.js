@@ -3,7 +3,8 @@ import './App.css';
 
 const fName = "Khushnood";
 const lName = "Asif";
-const num = 30;
+const currentDate = new Date();
+const year = currentDate.getFullYear();
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
           <p>Your lucky number is {Math.floor(Math.random()*60)}</p>
         </div>
       </header>
+      <div>
+        <p>Created by {fName}</p>
+        <p>Copyright {year}</p>
+      </div>,
     </div>
   );
 }
