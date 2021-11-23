@@ -12,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           <h1>Hello {fName + " " + lName}!</h1>
-          <p>Your lucky number is {num}</p>
+          <p>Your lucky number is {Math.floor(Math.random()*60)}</p>
         </div>
       </header>
     </div>
