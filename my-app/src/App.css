@@ -37,8 +37,16 @@
   }
 }
 
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: #64ffda;
+  color: #0a192f;
+}
+
 .footer, .copy {
+  width: 100%;
   background-color: #0a192f;
   color: #ccd6f6;
-  padding: 1rem;
 }
