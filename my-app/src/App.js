@@ -7,8 +7,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-          <h1>Hello World!</h1>
-          <p>This is a paragraph.</p>
+          <h1>This is my first react app</h1>
+          <ul>
+            <li>Chicken</li>
+            <li>Noodles</li>
+            <li>Pizza</li>
+          </ul>
         </div>
       </header>
     </div>
