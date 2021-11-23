@@ -16,10 +16,13 @@ function App() {
           <p>Your lucky number is {Math.floor(Math.random()*60)}</p>
         </div>
       </header>
-      <div>
-        <p>Created by {fName}</p>
-        <p>Copyright {year}</p>
-      </div>,
+      <body>
+        
+      </body>
+      <footer>
+        <p>Created by {fName + " " + lName}</p>
+        <p class="copy">Copyright {year}</p>
+      </footer>,
     </div>
   );
 }
