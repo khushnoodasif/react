@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://khushnoodasif.com/react",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -11,11 +12,9 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-
   "devDependencies": {
-    "homepage": "https://khushnoodasif.com/my-app"
+    "gh-pages": "^3.2.3"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
